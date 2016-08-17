@@ -1,0 +1,17 @@
+#templates
+  .media.msg{:style=>"display:none;"}
+    .media-body
+    %small.pull-right.time
+      %i.fa.fa-clock-o
+      {{time}}
+    %h5.media-heading {{name}}
+    %small.col-lg-10 {{text}}
+.container
+  .row
+    .message-wrap.col-lg-12
+      .msg-wrap
+      .send-wrap
+        %textarea#new_message_textarea.form-control.send-message{:placeholder => "Write a reply...", :rows => "3"}
+      .btn-panel.text-right
+        %a#new_message_btn.col-md-12.col-lg-12.col-sm-12.btn.btn-success{:role => "button"}
+          Send Message

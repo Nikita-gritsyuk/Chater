@@ -30,6 +30,15 @@ gem 'jbuilder', '~> 2.5'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+# haml is awesome
+gem 'haml' 
+#bootstrap too :)
+gem 'bootstrap'
+gem "font-awesome-rails"
+#underscorejs for teamplates
+gem "underscore-rails"
+
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
