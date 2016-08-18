@@ -1,0 +1,1247 @@
+Inspecting 44 files
+CEECCC.C..CCCC....C..CC.C.C.CC.....CCCC.C.C.
+
+Offenses:
+
+Gemfile:32:81: C: Line is too long. [83/80]
+  # Call 'byebug' anywhere in the code to stop execution and get a debugger console
+                                                                                ^^^
+Gemfile:37:81: C: Line is too long. [93/80]
+  # Access an IRB console on exception pages or by using <%= console %> anywhere in the code.
+                                                                                ^^^^^^^^^^^^^
+Gemfile:40:81: C: Line is too long. [130/80]
+  # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
+                                                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Gemfile.lock:2:9: E: unexpected token tCOLON
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+  remote: https://rubygems.org/
+        ^
+Gemfile.lock:2:19: E: unknown regexp options: rbyg
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+  remote: https://rubygems.org/
+                  ^^^^^^^^
+Gemfile.lock:3:3: E: unexpected token tLABEL
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+  specs:
+  ^^^^^^
+Gemfile.lock:4:21: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+    actioncable (5.0.0.1)
+                    ^^
+Gemfile.lock:4:23: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+    actioncable (5.0.0.1)
+                      ^^
+Gemfile.lock:5:19: E: unexpected token tEQL
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+      actionpack (= 5.0.0.1)
+                  ^
+Gemfile.lock:5:24: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+      actionpack (= 5.0.0.1)
+                       ^^
+Gemfile.lock:5:26: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+      actionpack (= 5.0.0.1)
+                         ^^
+Gemfile.lock:6:15: E: unexpected token tGT
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+      nio4r (~> 1.2)
+              ^
+Gemfile.lock:7:24: E: unexpected token tLPAREN_ARG
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+      websocket-driver (~> 0.6.1)
+                       ^
+Gemfile.lock:7:31: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+      websocket-driver (~> 0.6.1)
+                              ^^
+Gemfile.lock:8:22: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+    actionmailer (5.0.0.1)
+                     ^^
+Gemfile.lock:8:24: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+    actionmailer (5.0.0.1)
+                       ^^
+Gemfile.lock:9:19: E: unexpected token tEQL
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+      actionpack (= 5.0.0.1)
+                  ^
+Gemfile.lock:9:24: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+      actionpack (= 5.0.0.1)
+                       ^^
+Gemfile.lock:9:26: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+      actionpack (= 5.0.0.1)
+                         ^^
+Gemfile.lock:10:24: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+      actionview (= 5.0.0.1)
+                       ^^
+Gemfile.lock:10:26: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+      actionview (= 5.0.0.1)
+                         ^^
+Gemfile.lock:11:23: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+      activejob (= 5.0.0.1)
+                      ^^
+Gemfile.lock:11:25: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+      activejob (= 5.0.0.1)
+                        ^^
+Gemfile.lock:12:14: E: unexpected token tGT
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+      mail (~> 2.5, >= 2.5.4)
+             ^
+Gemfile.lock:12:27: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+      mail (~> 2.5, >= 2.5.4)
+                          ^^
+Gemfile.lock:13:25: E: unexpected token tLPAREN_ARG
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+      rails-dom-testing (~> 2.0)
+                        ^
+Gemfile.lock:14:20: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+    actionpack (5.0.0.1)
+                   ^^
+Gemfile.lock:14:22: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+    actionpack (5.0.0.1)
+                     ^^
+Gemfile.lock:15:19: E: unexpected token tEQL
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+      actionview (= 5.0.0.1)
+                  ^
+Gemfile.lock:15:24: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+      actionview (= 5.0.0.1)
+                       ^^
+Gemfile.lock:15:26: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+      actionview (= 5.0.0.1)
+                         ^^
+Gemfile.lock:16:27: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+      activesupport (= 5.0.0.1)
+                          ^^
+Gemfile.lock:16:29: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+      activesupport (= 5.0.0.1)
+                            ^^
+Gemfile.lock:17:14: E: unexpected token tGT
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+      rack (~> 2.0)
+             ^
+Gemfile.lock:18:17: E: unexpected token tLPAREN_ARG
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+      rack-test (~> 0.6.3)
+                ^
+Gemfile.lock:18:24: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+      rack-test (~> 0.6.3)
+                       ^^
+Gemfile.lock:19:25: E: unexpected token tLPAREN_ARG
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+      rails-dom-testing (~> 2.0)
+                        ^
+Gemfile.lock:20:28: E: unexpected token tLPAREN_ARG
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+      rails-html-sanitizer (~> 1.0, >= 1.0.2)
+                           ^
+Gemfile.lock:20:43: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+      rails-html-sanitizer (~> 1.0, >= 1.0.2)
+                                          ^^
+Gemfile.lock:21:20: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+    actionview (5.0.0.1)
+                   ^^
+Gemfile.lock:21:22: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+    actionview (5.0.0.1)
+                     ^^
+Gemfile.lock:22:22: E: unexpected token tEQL
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+      activesupport (= 5.0.0.1)
+                     ^
+Gemfile.lock:22:27: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+      activesupport (= 5.0.0.1)
+                          ^^
+Gemfile.lock:22:29: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+      activesupport (= 5.0.0.1)
+                            ^^
+Gemfile.lock:23:17: E: unexpected token tGT
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+      builder (~> 3.1)
+                ^
+Gemfile.lock:24:16: E: unexpected token tGT
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+      erubis (~> 2.7.0)
+               ^
+Gemfile.lock:24:21: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+      erubis (~> 2.7.0)
+                    ^^
+Gemfile.lock:25:25: E: unexpected token tLPAREN_ARG
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+      rails-dom-testing (~> 2.0)
+                        ^
+Gemfile.lock:26:28: E: unexpected token tLPAREN_ARG
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+      rails-html-sanitizer (~> 1.0, >= 1.0.2)
+                           ^
+Gemfile.lock:26:43: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+      rails-html-sanitizer (~> 1.0, >= 1.0.2)
+                                          ^^
+Gemfile.lock:27:19: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+    activejob (5.0.0.1)
+                  ^^
+Gemfile.lock:27:21: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+    activejob (5.0.0.1)
+                    ^^
+Gemfile.lock:28:22: E: unexpected token tEQL
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+      activesupport (= 5.0.0.1)
+                     ^
+Gemfile.lock:28:27: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+      activesupport (= 5.0.0.1)
+                          ^^
+Gemfile.lock:28:29: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+      activesupport (= 5.0.0.1)
+                            ^^
+Gemfile.lock:29:23: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+      globalid (>= 0.3.6)
+                      ^^
+Gemfile.lock:30:21: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+    activemodel (5.0.0.1)
+                    ^^
+Gemfile.lock:30:23: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+    activemodel (5.0.0.1)
+                      ^^
+Gemfile.lock:31:22: E: unexpected token tEQL
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+      activesupport (= 5.0.0.1)
+                     ^
+Gemfile.lock:31:27: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+      activesupport (= 5.0.0.1)
+                          ^^
+Gemfile.lock:31:29: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+      activesupport (= 5.0.0.1)
+                            ^^
+Gemfile.lock:32:22: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+    activerecord (5.0.0.1)
+                     ^^
+Gemfile.lock:32:24: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+    activerecord (5.0.0.1)
+                       ^^
+Gemfile.lock:33:20: E: unexpected token tEQL
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+      activemodel (= 5.0.0.1)
+                   ^
+Gemfile.lock:33:25: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+      activemodel (= 5.0.0.1)
+                        ^^
+Gemfile.lock:33:27: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+      activemodel (= 5.0.0.1)
+                          ^^
+Gemfile.lock:34:27: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+      activesupport (= 5.0.0.1)
+                          ^^
+Gemfile.lock:34:29: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+      activesupport (= 5.0.0.1)
+                            ^^
+Gemfile.lock:35:14: E: unexpected token tGT
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+      arel (~> 7.0)
+             ^
+Gemfile.lock:36:23: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+    activesupport (5.0.0.1)
+                      ^^
+Gemfile.lock:36:25: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+    activesupport (5.0.0.1)
+                        ^^
+Gemfile.lock:37:23: E: unexpected token tLPAREN_ARG
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+      concurrent-ruby (~> 1.0, >= 1.0.2)
+                      ^
+Gemfile.lock:37:38: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+      concurrent-ruby (~> 1.0, >= 1.0.2)
+                                     ^^
+Gemfile.lock:38:14: E: unexpected token tGT
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+      i18n (~> 0.7)
+             ^
+Gemfile.lock:39:18: E: unexpected token tGT
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+      minitest (~> 5.1)
+                 ^
+Gemfile.lock:40:16: E: unexpected token tGT
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+      tzinfo (~> 1.1)
+               ^
+Gemfile.lock:41:14: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+    arel (7.1.1)
+             ^^
+Gemfile.lock:42:24: E: unexpected token tLPAREN_ARG
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+    autoprefixer-rails (6.4.0.2)
+                       ^
+Gemfile.lock:42:28: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+    autoprefixer-rails (6.4.0.2)
+                           ^^
+Gemfile.lock:42:30: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+    autoprefixer-rails (6.4.0.2)
+                             ^^
+Gemfile.lock:44:19: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+    bootstrap (4.0.0.alpha3.1)
+                  ^^
+Gemfile.lock:44:28: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+    bootstrap (4.0.0.alpha3.1)
+                           ^^
+Gemfile.lock:45:26: E: unexpected token tLPAREN_ARG
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+      autoprefixer-rails (>= 6.0.3)
+                         ^
+Gemfile.lock:45:33: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+      autoprefixer-rails (>= 6.0.3)
+                                ^^
+Gemfile.lock:46:19: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+      sass (>= 3.4.19)
+                  ^^^
+Gemfile.lock:47:17: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+    builder (3.2.2)
+                ^^
+Gemfile.lock:48:16: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+    byebug (9.0.5)
+               ^^
+Gemfile.lock:49:18: E: unexpected token tLPAREN_ARG
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+    coffee-rails (4.2.1)
+                 ^
+Gemfile.lock:49:22: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+    coffee-rails (4.2.1)
+                     ^^
+Gemfile.lock:50:21: E: unexpected token tLPAREN_ARG
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+      coffee-script (>= 2.2.0)
+                    ^
+Gemfile.lock:50:28: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+      coffee-script (>= 2.2.0)
+                           ^^
+Gemfile.lock:51:23: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+      railties (>= 4.0.0, < 5.2.x)
+                      ^^
+Gemfile.lock:51:34: E: unexpected token tRPAREN
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+      railties (>= 4.0.0, < 5.2.x)
+                                 ^
+Gemfile.lock:52:19: E: unexpected token tLPAREN_ARG
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+    coffee-script (2.4.1)
+                  ^
+Gemfile.lock:52:23: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+    coffee-script (2.4.1)
+                      ^^
+Gemfile.lock:55:26: E: unexpected token tLPAREN_ARG
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+    coffee-script-source (1.10.0)
+                         ^
+Gemfile.lock:55:31: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+    coffee-script-source (1.10.0)
+                              ^^
+Gemfile.lock:56:21: E: unexpected token tLPAREN_ARG
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+    concurrent-ruby (1.0.2)
+                    ^
+Gemfile.lock:56:25: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+    concurrent-ruby (1.0.2)
+                        ^^
+Gemfile.lock:57:25: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+    debug_inspector (0.0.2)
+                        ^^
+Gemfile.lock:58:16: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+    erubis (2.7.0)
+               ^^
+Gemfile.lock:59:16: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+    execjs (2.7.0)
+               ^^
+Gemfile.lock:60:13: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+    ffi (1.9.14)
+            ^^^
+Gemfile.lock:61:24: E: unexpected token tLPAREN_ARG
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+    font-awesome-rails (4.6.3.1)
+                       ^
+Gemfile.lock:61:28: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+    font-awesome-rails (4.6.3.1)
+                           ^^
+Gemfile.lock:61:30: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+    font-awesome-rails (4.6.3.1)
+                             ^^
+Gemfile.lock:62:17: E: unexpected token tGEQ
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+      railties (>= 3.2, < 5.1)
+                ^^
+Gemfile.lock:63:18: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+    globalid (0.3.7)
+                 ^^
+Gemfile.lock:64:22: E: unexpected token tGEQ
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+      activesupport (>= 4.1.0)
+                     ^^
+Gemfile.lock:64:28: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+      activesupport (>= 4.1.0)
+                           ^^
+Gemfile.lock:65:14: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+    haml (4.0.7)
+             ^^
+Gemfile.lock:67:14: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+    i18n (0.7.0)
+             ^^
+Gemfile.lock:68:18: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+    jbuilder (2.6.0)
+                 ^^
+Gemfile.lock:69:22: E: unexpected token tGEQ
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+      activesupport (>= 3.0.0, < 5.1)
+                     ^^
+Gemfile.lock:69:28: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+      activesupport (>= 3.0.0, < 5.1)
+                           ^^
+Gemfile.lock:70:20: E: unexpected token tGT
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+      multi_json (~> 1.2)
+                   ^
+Gemfile.lock:71:18: E: unexpected token tLPAREN_ARG
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+    jquery-rails (4.1.1)
+                 ^
+Gemfile.lock:71:22: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+    jquery-rails (4.1.1)
+                     ^^
+Gemfile.lock:72:25: E: unexpected token tLPAREN_ARG
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+      rails-dom-testing (>= 1, < 3)
+                        ^
+Gemfile.lock:73:23: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+      railties (>= 4.2.0)
+                      ^^
+Gemfile.lock:75:16: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+    listen (3.0.8)
+               ^^
+Gemfile.lock:76:18: E: unexpected token tLPAREN_ARG
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+      rb-fsevent (~> 0.9, >= 0.9.4)
+                 ^
+Gemfile.lock:76:33: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+      rb-fsevent (~> 0.9, >= 0.9.4)
+                                ^^
+Gemfile.lock:77:18: E: unexpected token tLPAREN_ARG
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+      rb-inotify (~> 0.9, >= 0.9.7)
+                 ^
+Gemfile.lock:77:33: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+      rb-inotify (~> 0.9, >= 0.9.7)
+                                ^^
+Gemfile.lock:78:16: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+    loofah (2.0.3)
+               ^^
+Gemfile.lock:79:17: E: unexpected token tGEQ
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+      nokogiri (>= 1.5.9)
+                ^^
+Gemfile.lock:79:23: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+      nokogiri (>= 1.5.9)
+                      ^^
+Gemfile.lock:80:14: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+    mail (2.6.4)
+             ^^
+Gemfile.lock:81:18: E: unexpected token tLPAREN_ARG
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+      mime-types (>= 1.16, < 4)
+                 ^
+Gemfile.lock:82:23: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+    method_source (0.8.2)
+                      ^^
+Gemfile.lock:83:16: E: unexpected token tLPAREN_ARG
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+    mime-types (3.1)
+               ^
+Gemfile.lock:84:23: E: unexpected token tLPAREN_ARG
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+      mime-types-data (~> 3.2015)
+                      ^
+Gemfile.lock:85:21: E: unexpected token tLPAREN_ARG
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+    mime-types-data (3.2016.0521)
+                    ^
+Gemfile.lock:85:28: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+    mime-types-data (3.2016.0521)
+                           ^^^^^
+Gemfile.lock:86:23: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+    mini_portile2 (2.1.0)
+                      ^^
+Gemfile.lock:87:18: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+    minitest (5.9.0)
+                 ^^
+Gemfile.lock:88:21: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+    multi_json (1.12.1)
+                    ^^
+Gemfile.lock:89:15: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+    nio4r (1.2.1)
+              ^^
+Gemfile.lock:90:18: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+    nokogiri (1.6.8)
+                 ^^
+Gemfile.lock:91:23: E: unexpected token tGT
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+      mini_portile2 (~> 2.1.0)
+                      ^
+Gemfile.lock:91:28: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+      mini_portile2 (~> 2.1.0)
+                           ^^
+Gemfile.lock:92:18: E: unexpected token tLPAREN_ARG
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+      pkg-config (~> 1.1.7)
+                 ^
+Gemfile.lock:92:25: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+      pkg-config (~> 1.1.7)
+                        ^^
+Gemfile.lock:93:16: E: unexpected token tLPAREN_ARG
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+    pkg-config (1.1.7)
+               ^
+Gemfile.lock:93:20: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+    pkg-config (1.1.7)
+                   ^^
+Gemfile.lock:94:14: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+    puma (3.6.0)
+             ^^
+Gemfile.lock:95:14: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+    rack (2.0.1)
+             ^^
+Gemfile.lock:96:15: E: unexpected token tLPAREN_ARG
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+    rack-test (0.6.3)
+              ^
+Gemfile.lock:96:19: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+    rack-test (0.6.3)
+                  ^^
+Gemfile.lock:97:13: E: unexpected token tGEQ
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+      rack (>= 1.0)
+            ^^
+Gemfile.lock:98:15: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+    rails (5.0.0.1)
+              ^^
+Gemfile.lock:98:17: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+    rails (5.0.0.1)
+                ^^
+Gemfile.lock:99:20: E: unexpected token tEQL
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+      actioncable (= 5.0.0.1)
+                   ^
+Gemfile.lock:99:25: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+      actioncable (= 5.0.0.1)
+                        ^^
+Gemfile.lock:99:27: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+      actioncable (= 5.0.0.1)
+                          ^^
+Gemfile.lock:100:26: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+      actionmailer (= 5.0.0.1)
+                         ^^
+Gemfile.lock:100:28: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+      actionmailer (= 5.0.0.1)
+                           ^^
+Gemfile.lock:101:24: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+      actionpack (= 5.0.0.1)
+                       ^^
+Gemfile.lock:101:26: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+      actionpack (= 5.0.0.1)
+                         ^^
+Gemfile.lock:102:24: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+      actionview (= 5.0.0.1)
+                       ^^
+Gemfile.lock:102:26: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+      actionview (= 5.0.0.1)
+                         ^^
+Gemfile.lock:103:23: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+      activejob (= 5.0.0.1)
+                      ^^
+Gemfile.lock:103:25: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+      activejob (= 5.0.0.1)
+                        ^^
+Gemfile.lock:104:25: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+      activemodel (= 5.0.0.1)
+                        ^^
+Gemfile.lock:104:27: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+      activemodel (= 5.0.0.1)
+                          ^^
+Gemfile.lock:105:26: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+      activerecord (= 5.0.0.1)
+                         ^^
+Gemfile.lock:105:28: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+      activerecord (= 5.0.0.1)
+                           ^^
+Gemfile.lock:106:27: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+      activesupport (= 5.0.0.1)
+                          ^^
+Gemfile.lock:106:29: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+      activesupport (= 5.0.0.1)
+                            ^^
+Gemfile.lock:107:22: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+      bundler (>= 1.3.0, < 2.0)
+                     ^^
+Gemfile.lock:108:22: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+      railties (= 5.0.0.1)
+                     ^^
+Gemfile.lock:108:24: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+      railties (= 5.0.0.1)
+                       ^^
+Gemfile.lock:109:23: E: unexpected token tLPAREN_ARG
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+      sprockets-rails (>= 2.0.0)
+                      ^
+Gemfile.lock:109:30: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+      sprockets-rails (>= 2.0.0)
+                             ^^
+Gemfile.lock:110:23: E: unexpected token tLPAREN_ARG
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+    rails-dom-testing (2.0.1)
+                      ^
+Gemfile.lock:110:27: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+    rails-dom-testing (2.0.1)
+                          ^^
+Gemfile.lock:111:22: E: unexpected token tGEQ
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+      activesupport (>= 4.2.0, < 6.0)
+                     ^^
+Gemfile.lock:111:28: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+      activesupport (>= 4.2.0, < 6.0)
+                           ^^
+Gemfile.lock:112:18: E: unexpected token tGT
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+      nokogiri (~> 1.6.0)
+                 ^
+Gemfile.lock:112:23: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+      nokogiri (~> 1.6.0)
+                      ^^
+Gemfile.lock:113:26: E: unexpected token tLPAREN_ARG
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+    rails-html-sanitizer (1.0.3)
+                         ^
+Gemfile.lock:113:30: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+    rails-html-sanitizer (1.0.3)
+                             ^^
+Gemfile.lock:114:16: E: unexpected token tGT
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+      loofah (~> 2.0)
+               ^
+Gemfile.lock:115:18: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+    railties (5.0.0.1)
+                 ^^
+Gemfile.lock:115:20: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+    railties (5.0.0.1)
+                   ^^
+Gemfile.lock:116:19: E: unexpected token tEQL
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+      actionpack (= 5.0.0.1)
+                  ^
+Gemfile.lock:116:24: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+      actionpack (= 5.0.0.1)
+                       ^^
+Gemfile.lock:116:26: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+      actionpack (= 5.0.0.1)
+                         ^^
+Gemfile.lock:117:27: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+      activesupport (= 5.0.0.1)
+                          ^^
+Gemfile.lock:117:29: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+      activesupport (= 5.0.0.1)
+                            ^^
+Gemfile.lock:119:13: E: unexpected token tGEQ
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+      rake (>= 0.8.7)
+            ^^
+Gemfile.lock:119:19: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+      rake (>= 0.8.7)
+                  ^^
+Gemfile.lock:120:20: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+      thor (>= 0.18.1, < 2.0)
+                   ^^
+Gemfile.lock:121:15: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+    rake (11.2.2)
+              ^^
+Gemfile.lock:122:16: E: unexpected token tLPAREN_ARG
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+    rb-fsevent (0.9.7)
+               ^
+Gemfile.lock:122:20: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+    rb-fsevent (0.9.7)
+                   ^^
+Gemfile.lock:123:16: E: unexpected token tLPAREN_ARG
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+    rb-inotify (0.9.7)
+               ^
+Gemfile.lock:123:20: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+    rb-inotify (0.9.7)
+                   ^^
+Gemfile.lock:124:12: E: unexpected token tGEQ
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+      ffi (>= 0.5.0)
+           ^^
+Gemfile.lock:124:18: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+      ffi (>= 0.5.0)
+                 ^^
+Gemfile.lock:125:14: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+    sass (3.4.22)
+             ^^^
+Gemfile.lock:126:16: E: unexpected token tLPAREN_ARG
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+    sass-rails (5.0.6)
+               ^
+Gemfile.lock:126:20: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+    sass-rails (5.0.6)
+                   ^^
+Gemfile.lock:127:17: E: unexpected token tGEQ
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+      railties (>= 4.0.0, < 6)
+                ^^
+Gemfile.lock:127:23: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+      railties (>= 4.0.0, < 6)
+                      ^^
+Gemfile.lock:128:14: E: unexpected token tGT
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+      sass (~> 3.1)
+             ^
+Gemfile.lock:130:23: E: unexpected token tLPAREN_ARG
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+      sprockets-rails (>= 2.0, < 4.0)
+                      ^
+Gemfile.lock:132:16: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+    spring (1.7.2)
+               ^^
+Gemfile.lock:133:27: E: unexpected token tLPAREN_ARG
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+    spring-watcher-listen (2.0.0)
+                          ^
+Gemfile.lock:133:31: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+    spring-watcher-listen (2.0.0)
+                              ^^
+Gemfile.lock:134:15: E: unexpected token tGEQ
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+      listen (>= 2.7, < 4.0)
+              ^^
+Gemfile.lock:135:16: E: unexpected token tGT
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+      spring (~> 1.2)
+               ^
+Gemfile.lock:136:19: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+    sprockets (3.7.0)
+                  ^^
+Gemfile.lock:137:23: E: unexpected token tLPAREN_ARG
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+      concurrent-ruby (~> 1.0)
+                      ^
+Gemfile.lock:139:21: E: unexpected token tLPAREN_ARG
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+    sprockets-rails (3.1.1)
+                    ^
+Gemfile.lock:139:25: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+    sprockets-rails (3.1.1)
+                        ^^
+Gemfile.lock:140:19: E: unexpected token tGEQ
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+      actionpack (>= 4.0)
+                  ^^
+Gemfile.lock:142:24: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+      sprockets (>= 3.0.0)
+                       ^^
+Gemfile.lock:143:17: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+    sqlite3 (1.3.11)
+                ^^^
+Gemfile.lock:144:15: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+    thor (0.19.1)
+              ^^
+Gemfile.lock:145:21: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+    thread_safe (0.3.5)
+                    ^^
+Gemfile.lock:146:14: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+    tilt (2.0.5)
+             ^^
+Gemfile.lock:147:20: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+    turbolinks (5.0.1)
+                   ^^
+Gemfile.lock:148:25: E: unexpected token tLPAREN_ARG
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+      turbolinks-source (~> 5)
+                        ^
+Gemfile.lock:149:23: E: unexpected token tLPAREN_ARG
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+    turbolinks-source (5.0.0)
+                      ^
+Gemfile.lock:149:27: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+    turbolinks-source (5.0.0)
+                          ^^
+Gemfile.lock:150:16: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+    tzinfo (1.2.2)
+               ^^
+Gemfile.lock:151:21: E: unexpected token tGT
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+      thread_safe (~> 0.1)
+                    ^
+Gemfile.lock:152:18: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+    uglifier (3.0.1)
+                 ^^
+Gemfile.lock:153:15: E: unexpected token tGEQ
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+      execjs (>= 0.3.0, < 3)
+              ^^
+Gemfile.lock:153:21: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+      execjs (>= 0.3.0, < 3)
+                    ^^
+Gemfile.lock:154:22: E: unexpected token tLPAREN_ARG
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+    underscore-rails (1.8.3)
+                     ^
+Gemfile.lock:154:26: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+    underscore-rails (1.8.3)
+                         ^^
+Gemfile.lock:155:17: E: unexpected token tLPAREN_ARG
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+    web-console (3.3.1)
+                ^
+Gemfile.lock:155:21: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+    web-console (3.3.1)
+                    ^^
+Gemfile.lock:156:19: E: unexpected token tGEQ
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+      actionview (>= 5.0)
+                  ^^
+Gemfile.lock:159:17: E: unexpected token tGEQ
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+      railties (>= 5.0)
+                ^^
+Gemfile.lock:160:22: E: unexpected token tLPAREN_ARG
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+    websocket-driver (0.6.4)
+                     ^
+Gemfile.lock:160:26: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+    websocket-driver (0.6.4)
+                         ^^
+Gemfile.lock:161:28: E: unexpected token tLPAREN_ARG
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+      websocket-extensions (>= 0.1.0)
+                           ^
+Gemfile.lock:161:35: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+      websocket-extensions (>= 0.1.0)
+                                  ^^
+Gemfile.lock:162:26: E: unexpected token tLPAREN_ARG
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+    websocket-extensions (0.1.2)
+                         ^
+Gemfile.lock:162:30: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+    websocket-extensions (0.1.2)
+                             ^^
+Gemfile.lock:170:16: E: unexpected token tLPAREN_ARG
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+  coffee-rails (~> 4.2)
+               ^
+Gemfile.lock:173:14: E: unexpected token tGT
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+  jbuilder (~> 2.5)
+             ^
+Gemfile.lock:175:12: E: unexpected token tGT
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+  listen (~> 3.0.5)
+           ^
+Gemfile.lock:175:17: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+  listen (~> 3.0.5)
+                ^^
+Gemfile.lock:176:10: E: unexpected token tGT
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+  puma (~> 3.0)
+         ^
+Gemfile.lock:177:11: E: unexpected token tGT
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+  rails (~> 5.0.0, >= 5.0.0.1)
+          ^
+Gemfile.lock:177:16: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+  rails (~> 5.0.0, >= 5.0.0.1)
+               ^^
+Gemfile.lock:177:26: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+  rails (~> 5.0.0, >= 5.0.0.1)
+                         ^^
+Gemfile.lock:177:28: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+  rails (~> 5.0.0, >= 5.0.0.1)
+                           ^^
+Gemfile.lock:178:14: E: unexpected token tLPAREN_ARG
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+  sass-rails (~> 5.0)
+             ^
+Gemfile.lock:180:25: E: unexpected token tLPAREN_ARG
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+  spring-watcher-listen (~> 2.0.0)
+                        ^
+Gemfile.lock:180:32: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+  spring-watcher-listen (~> 2.0.0)
+                               ^^
+Gemfile.lock:182:16: E: unexpected token tGT
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+  turbolinks (~> 5)
+               ^
+Gemfile.lock:184:13: E: unexpected token tGEQ
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+  uglifier (>= 1.3.0)
+            ^^
+Gemfile.lock:184:19: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+  uglifier (>= 1.3.0)
+                  ^^
+Gemfile.lock:189:8: E: no .<digit> floating literal anymore; put 0 before dot
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+   1.12.5
+       ^^
+README.md:8:1: E: unexpected token tSTAR
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+* Ruby version
+^
+README.md:10:10: E: unexpected token tIDENTIFIER
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+* System dependencies
+         ^^^^^^^^^^^^
+README.md:12:16: E: unexpected token tNL
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+* Configuration ...
+               
+README.md:16:12: E: unexpected token tIDENTIFIER
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+* Database initialization
+           ^^^^^^^^^^^^^^
+README.md:18:7: E: unexpected token tIDENTIFIER
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+* How to run the test suite
+      ^^
+README.md:20:12: E: unexpected token tLPAREN_ARG
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+* Services (job queues, cache servers, search engines, etc.)
+           ^
+README.md:20:31: E: unexpected token tIDENTIFIER
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+* Services (job queues, cache servers, search engines, etc.)
+                              ^^^^^^^
+README.md:20:47: E: unexpected token tIDENTIFIER
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+* Services (job queues, cache servers, search engines, etc.)
+                                              ^^^^^^^
+README.md:20:60: E: unexpected token tRPAREN
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+* Services (job queues, cache servers, search engines, etc.)
+                                                           ^
+README.md:24:3: E: unexpected token tDOT3
+(Using Ruby 2.0 parser; configure using TargetRubyVersion parameter, under AllCops)
+* ...
+  ^^^
+Rakefile:2:81: C: Line is too long. [90/80]
+# for example lib/tasks/capistrano.rake, and they will automatically be available to Rake.
+                                                                                ^^^^^^^^^^
+app/helpers/application_helper.rb:1:1: C: Missing top-level module documentation comment.
+module ApplicationHelper
+^^^^^^
+app/helpers/chat_helper.rb:1:1: C: Missing top-level module documentation comment.
+module ChatHelper
+^^^^^^
+app/mailers/application_mailer.rb:1:1: C: Missing top-level class documentation comment.
+class ApplicationMailer < ActionMailer::Base
+^^^^^
+app/channels/chat_channel.rb:1:81: C: Line is too long. [125/80]
+# Be sure to restart your server when you modify this file. Action Cable runs in a loop that does not support auto reloading.
+                                                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+app/channels/chat_channel.rb:4:17: C: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+    stream_from "chat:1"
+                ^^^^^^^^
+app/channels/chat_channel.rb:6:1: C: Trailing whitespace detected.
+app/channels/chat_channel.rb:8:30: C: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+    ChatChannel.broadcast_to "1", {name: "Mike", time: Time.now, text: data["text"]}
+                             ^^^
+app/channels/chat_channel.rb:8:35: C: Redundant curly braces around a hash parameter.
+    ChatChannel.broadcast_to "1", {name: "Mike", time: Time.now, text: data["text"]}
+                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+app/channels/chat_channel.rb:8:35: C: Space inside { missing.
+    ChatChannel.broadcast_to "1", {name: "Mike", time: Time.now, text: data["text"]}
+                                  ^
+app/channels/chat_channel.rb:8:42: C: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+    ChatChannel.broadcast_to "1", {name: "Mike", time: Time.now, text: data["text"]}
+                                         ^^^^^^
+app/channels/chat_channel.rb:8:77: C: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+    ChatChannel.broadcast_to "1", {name: "Mike", time: Time.now, text: data["text"]}
+                                                                            ^^^^^^
+app/channels/chat_channel.rb:8:81: C: Line is too long. [84/80]
+    ChatChannel.broadcast_to "1", {name: "Mike", time: Time.now, text: data["text"]}
+                                                                                ^^^^
+app/channels/chat_channel.rb:8:84: C: Space inside } missing.
+    ChatChannel.broadcast_to "1", {name: "Mike", time: Time.now, text: data["text"]}
+                                                                                   ^
+app/controllers/chat_controller.rb:1:1: C: Missing top-level class documentation comment.
+class ChatController < ApplicationController
+^^^^^
+app/controllers/chat_controller.rb:4:1: C: Trailing whitespace detected.
+app/controllers/chat_controller.rb:6:1: C: Trailing whitespace detected.
+app/controllers/application_controller.rb:1:1: C: Missing top-level class documentation comment.
+class ApplicationController < ActionController::Base
+^^^^^
+app/models/application_record.rb:1:1: C: Missing top-level class documentation comment.
+class ApplicationRecord < ActiveRecord::Base
+^^^^^
+bin/spring:10:81: C: Line is too long. [97/80]
+  if (match = Bundler.default_lockfile.read.match(/^GEM$.*?^    (?:  )*spring \((.*?)\)$.*?^$/m))
+                                                                                ^^^^^^^^^^^^^^^^^
+bin/spring:11:81: C: Line is too long. [101/80]
+    Gem.paths = { 'GEM_PATH' => [Bundler.bundle_path.to_s, *Gem.path].uniq.join(Gem.path_separator) }
+                                                                                ^^^^^^^^^^^^^^^^^^^^^
+config/application.rb:11:81: C: Line is too long. [82/80]
+    # Settings in config/environments/* take precedence over those specified here.
+                                                                                ^^
+config/routes.rb:3:8: C: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+  root "chat#index"
+       ^^^^^^^^^^^^
+config/routes.rb:4:7: C: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+  get "add" => "chat#add_message"
+      ^^^^^
+config/routes.rb:4:16: C: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+  get "add" => "chat#add_message"
+               ^^^^^^^^^^^^^^^^^^
+config/puma.rb:7:27: C: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+threads_count = ENV.fetch("RAILS_MAX_THREADS") { 5 }.to_i
+                          ^^^^^^^^^^^^^^^^^^^
+config/puma.rb:10:81: C: Line is too long. [85/80]
+# Specifies the `port` that Puma will listen on to receive requests, default is 3000.
+                                                                                ^^^^^
+config/puma.rb:12:23: C: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+port        ENV.fetch("PORT") { 3000 }
+                      ^^^^^^
+config/puma.rb:16:23: C: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+environment ENV.fetch("RAILS_ENV") { "development" }
+                      ^^^^^^^^^^^
+config/puma.rb:16:38: C: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+environment ENV.fetch("RAILS_ENV") { "development" }
+                                     ^^^^^^^^^^^^^
+config/initializers/backtrace_silencers.rb:3:81: C: Line is too long. [107/80]
+# You can add backtrace silencers for libraries that you're using but don't wish to see in your backtraces.
+                                                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+config/initializers/backtrace_silencers.rb:6:81: C: Line is too long. [112/80]
+# You can also remove all the silencers if you're trying to debug a problem that might stem from framework code.
+                                                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+config/initializers/wrap_parameters.rb:6:81: C: Line is too long. [96/80]
+# Enable parameter wrapping for JSON. You can disable this by setting :format to an empty array.
+                                                                                ^^^^^^^^^^^^^^^^
+config/initializers/new_framework_defaults.rb:11:81: C: Line is too long. [81/80]
+Rails.application.config.action_controller.forgery_protection_origin_check = true
+                                                                                ^
+config/initializers/new_framework_defaults.rb:20:81: C: Line is too long. [88/80]
+# Do not halt callback chains when a callback returns false. Previous versions had true.
+                                                                                ^^^^^^^^
+config/initializers/new_framework_defaults.rb:23:81: C: Line is too long. [84/80]
+# Configure SSL options to enable HSTS with subdomains. Previous versions had false.
+                                                                                ^^^^
+config/initializers/assets.rb:10:81: C: Line is too long. [93/80]
+# application.js, application.css, and all non-JS/CSS in app/assets folder are already added.
+                                                                                ^^^^^^^^^^^^^
+config/environments/test.rb:2:81: C: Line is too long. [85/80]
+  # Settings specified here will take precedence over those in config/application.rb.
+                                                                                ^^^^^
+config/environments/production.rb:2:81: C: Line is too long. [85/80]
+  # Settings specified here will take precedence over those in config/application.rb.
+                                                                                ^^^^^
+config/environments/production.rb:28:81: C: Line is too long. [102/80]
+  # `config.assets.precompile` and `config.assets.version` have moved to config/initializers/assets.rb
+                                                                                ^^^^^^^^^^^^^^^^^^^^^^
+config/environments/production.rb:40:81: C: Line is too long. [96/80]
+  # config.action_cable.allowed_request_origins = [ 'http://example.com', /http:\/\/example.*/ ]
+                                                                                ^^^^^^^^^^^^^^^^
+config/environments/production.rb:42:81: C: Line is too long. [96/80]
+  # Force all access to the app over SSL, use Strict-Transport-Security, and use secure cookies.
+                                                                                ^^^^^^^^^^^^^^^^
+config/environments/production.rb:50:22: C: Space inside square brackets detected.
+  config.log_tags = [ :request_id ]
+                     ^
+config/environments/production.rb:50:34: C: Space inside square brackets detected.
+  config.log_tags = [ :request_id ]
+                                 ^
+config/environments/production.rb:55:81: C: Line is too long. [83/80]
+  # Use a real queuing backend for Active Job (and separate queues per environment)
+                                                                                ^^^
+config/environments/production.rb:61:81: C: Line is too long. [100/80]
+  # Set this to true and configure the email server for immediate delivery to raise delivery errors.
+                                                                                ^^^^^^^^^^^^^^^^^^^^
+config/environments/production.rb:76:81: C: Line is too long. [83/80]
+  # config.logger = ActiveSupport::TaggedLogging.new(Syslog::Logger.new 'app-name')
+                                                                                ^^^
+config/environments/production.rb:78:10: C: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+  if ENV["RAILS_LOG_TO_STDOUT"].present?
+         ^^^^^^^^^^^^^^^^^^^^^
+config/environments/development.rb:2:81: C: Line is too long. [85/80]
+  # Settings specified here will take precedence over those in config/application.rb.
+                                                                                ^^^^^
+config/environments/development.rb:54:1: C: Trailing whitespace detected.
+config/environments/development.rb:55:3: C: Missing space after #.
+  #use cloud9 domain
+  ^^^^^^^^^^^^^^^^^^
+config/environments/development.rb:56:86: C: Line is too long. [87/80]
+  config.action_cable.allowed_request_origins = ['https://runeforce-nikdev.c9users.io']
+                                                                                     ^^
+db/seeds.rb:1:81: C: Line is too long. [103/80]
+# This file should contain all the record creation needed to seed the database with its default values.
+                                                                                ^^^^^^^^^^^^^^^^^^^^^^^
+db/seeds.rb:2:81: C: Line is too long. [111/80]
+# The data can then be loaded with the rails db:seed command (or created alongside the database with db:setup).
+                                                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+db/seeds.rb:6:81: C: Line is too long. [81/80]
+#   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
+                                                                                ^
+test/test_helper.rb:5:7: C: Use nested module/class definitions instead of compact style.
+class ActiveSupport::TestCase
+      ^^^^^^^^^^^^^^^^^^^^^^^
+test/test_helper.rb:6:81: C: Line is too long. [82/80]
+  # Setup all fixtures in test/fixtures/*.yml for all tests in alphabetical order.
+                                                                                ^^
+
+44 files inspected, 327 offenses detected

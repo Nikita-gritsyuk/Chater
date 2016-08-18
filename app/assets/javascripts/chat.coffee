@@ -5,3 +5,9 @@
 $ ->
   $("#new_message_btn").click ->
     App.chat.perform("new_message", {text: $("#new_message_textarea").val()})
+    $("#new_message_textarea").val("")
+    
+  $('#textareaId').keydown (e) ->
+    if e.ctrlKey and e.keyCode == 13
+      # Ctrl-Enter pressed
+    else
