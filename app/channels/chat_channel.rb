@@ -5,7 +5,7 @@ class ChatChannel < ApplicationCable::Channel
   end
   
   def new_message(data)
-    ChatChannel.broadcast_to "1", {name: "Mike", time: Time.now, text: data["text"]}
+    ChatChannel.broadcast_to "1", {name: current_user.name, time: Time.now, text: data["text"]}
   end
 
   def unsubscribed

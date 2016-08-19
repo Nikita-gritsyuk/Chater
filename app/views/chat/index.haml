@@ -1,10 +1,14 @@
 #templates
   .media.msg{:style=>"display:none;"}
+    .row 
+      .col-lg-6
+        %h5.media-heading {{name}}
+      .col-lg-6
+        %small.pull-right.time
+          %i.fa.fa-clock-o
+          {{time}}
     .media-body
-    %small.pull-right.time
-      %i.fa.fa-clock-o
-      {{time}}
-    %h5.media-heading {{name}}
+    .msg_header
     %small.col-lg-10 {{text}}
 .container
   .row

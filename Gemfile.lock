@@ -72,9 +72,6 @@ GEM
       railties (>= 3.2, < 5.1)
     globalid (0.3.7)
       activesupport (>= 4.1.0)
-    growlyflash (0.9.0)
-      coffee-rails (>= 3.2.1)
-      railties (>= 3.2, < 5.1)
     haml (4.0.7)
       tilt
     i18n (0.7.0)
@@ -190,7 +187,6 @@ DEPENDENCIES
   devise
   devise-bootstrap-views
   font-awesome-rails
-  growlyflash
   haml
   jbuilder (~> 2.5)
   jquery-rails

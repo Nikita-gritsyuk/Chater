@@ -4,23 +4,12 @@
 @import "bootstrap";
 @import "font-awesome";
 
+body{
+  padding-top: 0px !important;
+}
 #templates {
   display:none;
 }
-
-.conversation-wrap {
-  box-shadow: -2px 0 3px #ddd;
-  padding: 0;
-  max-height: 400px;
-  overflow: auto;
-}
-
-.conversation {
-  padding: 5px;
-  border-bottom: 1px solid #ddd;
-  margin: 0;
-}
-
 .message-wrap {
   box-shadow: 0 0 3px #ddd;
   padding: 0;
@@ -58,34 +47,10 @@
   border: 1px solid #e1e1e8;
 }
 
-.send-message-btn {
-  border-top-left-radius: 0;
-  border-top-right-radius: 0;
-  border-bottom-left-radius: 0;
-  border-bottom-right-radius: 0;
-}
-
-.btn-panel {
-  background: #f7f7f9;
-  .btn {
-    transition: 0.2s all ease-in-out;
-    &:hover {
-      color: #666;
-      background: #f8f8f8;
-    }
-    &:active {
-      box-shadow: 0 0 1px #ddd;
-    }
-  }
-}
-
 .btn-panel-conversation .btn, .btn-panel-msg .btn {
   background: #f8f8f8;
 }
 
-.btn-panel-conversation .btn:first-child {
-  border-right: 1px solid #ddd;
-}
 
 .msg-wrap .media-heading {
   color: #003bb3;

@@ -1,12 +1,20 @@
 App.chat = App.cable.subscriptions.create "ChatChannel",
   connected: ->
-    alert("connected")
-    # Called when the subscription is ready for use on the server
+    $.growl
+      title: "Connected!",
+      message: "connection established" 
+      style: "notice"
 
   disconnected: ->
-    # Called when the subscription has been terminated by the server
-
+    $.growl
+      title: "ERROR!",
+      message: "connection lost, trying to reconnect..." 
+      style: "error"
+      
   received: (data) ->
-    tpl = _.template($("#templates > .media.msg")[0].outerHTML)
+    msg_wrap = $(".msg-wrap");
+    tpl = _.template($("#templates > .media.msg")[0].outerHTML);
     html=tpl(data)
-    $(html).appendTo(".msg-wrap").show(300);
+    $(html).appendTo(msg_wrap).show(100);
+    msg_wrap.animate({scrollTop: msg_wrap[0].scrollHeight}, 100);
+    
