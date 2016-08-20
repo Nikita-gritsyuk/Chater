@@ -15,7 +15,7 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require underscore
-//= require_tree .
+//= require jquery.growl
 
 
 _.templateSettings = {

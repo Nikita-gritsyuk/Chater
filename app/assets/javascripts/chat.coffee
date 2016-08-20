@@ -1,7 +1,7 @@
 # Place all the behaviors and hooks related to the matching controller here.
 # All this logic will automatically be available in application.js.
 # You can use CoffeeScript in this file: http://coffeescript.org/
-
+# = require cable
 send_message = ->
   App.chat.perform("new_message", {text: $("#new_message_textarea").val()})
   $("#new_message_textarea").val("")
